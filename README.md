@@ -29,8 +29,8 @@
 
 3.5/4 | Code Quality
 :---: | :---
-0.75/1 | Best Practice
-0.75/1 | Well-Formatted
+1/1 | Best Practice
+1/1 | Well-Formatted
 1/1 | Clearly Written
 1/1 | Concise
 
@@ -45,41 +45,8 @@
 
 Nice job with functionality, you've got everything working as it should.
 
----
-
-Your `viewDidLoad` method in `ViewController.swift` is performing many different tasks.
-This is a method where many tasks *will* be kicked off, but we should split the code for 
-those tasks into single-function helper methods. Here's an example of how we could better 
-encapsulate this code (and in turn make it both more readable and easier to follow):
-
-Task 1: `func populateAnimalsArray() {}`
-
-Task 2: `func configureButtonsAndImageViews() {}`
-
-What code would go in each of these functions? (rhetorical question, just think about it)
-
-Note that the names of these methods read like plain English and tell you exactly what 
-they do. This indicates that a method is well-named.
-
----
-
-In Swift, we `camelCase`, not `snake_case` or `SNAKE_CASE`
-
-`let SCREEN_WIDTH: Int = 414` -> `let screenWidth: Int = 414`
-
----
-
-Please delete your old commented-out code.
-
----
-
-Lifecycle functions (including `viewDidLoad` should be below the class-level variables and above
-other functions in the view controller.
-
----
-
 Let me know if you have questions!
 
 ### Score
 
-#### 19.5/20
+#### 20/20
